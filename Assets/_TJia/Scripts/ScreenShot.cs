@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScreenShot : MonoBehaviour {
+public class ScreenShot : MonoBehaviour
+{
 
     public float Duration = 2;
     public bool TakePhotos = false;
@@ -21,14 +22,9 @@ public class ScreenShot : MonoBehaviour {
         ScreenCapture.CaptureScreenshot("Screenshot" + mCpt + ".png");
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
+    void Update()
+    {
+        //连续截图，用于制作gif文件
         if (TakePhotos == true)
         {
             Timer = Time.time + Duration;
@@ -48,6 +44,6 @@ public class ScreenShot : MonoBehaviour {
             Finished = true;
             Debug.Log("Finished");
         }
-		
-	}
+
+    }
 }

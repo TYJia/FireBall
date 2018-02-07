@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198972675232389466}
   - component: {fileID: 199752335566585502}
   m_Layer: 0
-  m_Name: Particle System (1)
+  m_Name: FireTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 198841401592444382}
   - component: {fileID: 199545479689313768}
   m_Layer: 0
-  m_Name: SimpleEmbers
+  m_Name: Embers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 198437968505876586}
   - component: {fileID: 199850987932631280}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: FlameBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 198731710284951576}
   - component: {fileID: 199459944250149576}
   m_Layer: 0
-  m_Name: FireCalmALT
+  m_Name: FlameUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,7 +207,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1481156511935186}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.7767461, z: -0, w: -0.6298139}
   m_LocalPosition: {x: 0, y: 0.41999996, z: -1.742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -220,7 +220,7 @@ Transform:
   - {fileID: 4704650543091492}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 258.073, z: 0}
 --- !u!4 &4704650543091492
 Transform:
   m_ObjectHideFlags: 1
@@ -515,7 +515,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 1489909996
+  randomSeed: 1212067923
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3796,7 +3796,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -672131526
+  randomSeed: 125921839
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7113,7 +7113,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -120145966
+  randomSeed: -542302309
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10382,7 +10382,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -510055670
+  randomSeed: 1227139842
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13645,7 +13645,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1050554443
+  randomSeed: 2046365112
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -16893,7 +16893,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1086390548
+  randomSeed: 920672014
   InitialModule:
     serializedVersion: 3
     enabled: 1
